@@ -1,0 +1,49 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "BlueBRtoBCRT"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score Coral Level 4"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "BlueBCRTtoHP"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Human Player Coral"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "BlueHPtoBCLT"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score Coral Level 4"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}

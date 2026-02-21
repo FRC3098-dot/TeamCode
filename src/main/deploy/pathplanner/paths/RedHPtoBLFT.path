@@ -1,0 +1,61 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 16.68688524590164,
+        "y": 0.7823258196721316
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 14.409221311475408,
+        "y": 1.3577356557377076
+      },
+      "isLocked": false,
+      "linkedName": "RedHP"
+    },
+    {
+      "anchor": {
+        "x": 12.587090163934427,
+        "y": 2.8561987704918033
+      },
+      "prevControl": {
+        "x": 13.618032786885246,
+        "y": 1.7173668032786882
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "RedCoralM1AEP"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "",
+      "waypointRelativePos": 0,
+      "endWaypointRelativePos": null,
+      "command": null
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 360.0,
+    "maxAngularAcceleration": 172.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 59.99999999999999
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 126.0
+  },
+  "useDefaultConstraints": true
+}
